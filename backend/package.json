@@ -1,0 +1,27 @@
+{
+  "name": "budgeting-app",
+  "version": "1.0.0",
+  "description": "budgeting application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JalalJonaid/budgeting-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JalalJonaid/budgeting-app/issues"
+  },
+  "homepage": "https://github.com/JalalJonaid/budgeting-app#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^3.0.2"
+  }
+}
